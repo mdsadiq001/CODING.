@@ -1,0 +1,284 @@
+/* Font CSS */
+html , body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --purple: #5f27cd;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.btn {
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+/* Mobile Nav CSS */
+.slicknav_menu {
+    background: none;
+	font-size: 16px;
+	padding: 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+    display: none;
+}
+.slicknav_menu .slicknav_menutxt {
+	display: none;
+}
+.slicknav_menu .slicknav_icon {
+	margin: 0;
+}
+.slicknav_btn {
+	background-color:var(--purple);
+}
+.slicknav_nav {
+	
+	position: fixed;
+	width: 60%;
+	left: 0;
+	top: 0;
+	background-color: var(--purple);
+}
+
+
+/* Top header area Style */
+#top_header_area{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#top_header_area #header_area{
+    display: flex;
+    background-color: var(--purple);
+    padding: 20px 0;
+    
+}
+.contact_area{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.contact_area p {
+    margin: 0;
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+.contact_area i {
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+.social_area{
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+
+}
+.social_area i {
+    font-size: 26px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.social_area i:hover {
+    color: rgb(253, 253, 253);
+    
+}
+/* Navigation Menu */
+#nav_area{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    
+}
+#nav_area .logo_area{
+    flex-basis: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.logo_area p{
+    font-size: 40px;
+    padding-left: 20px;
+    color: black;
+}
+.logo_area span{
+    font-size: 50px;
+    color: var(--purple);
+}
+#nav_area .nav_menu{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#nav_area ul{
+    list-style-type: none;
+    
+}
+#nav_area li{
+    display: inline-block;
+    
+}
+.nav_menu a{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+}
+.nav_menu a:hover{
+    color: white;
+    background-color: var(--purple);
+}
+/* Top Header Area */
+#header_area{
+    display: flex;
+    background-color: var(--purple);
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 15px;
+}
+#header_area .writting{
+    flex-basis: 40%;
+    
+}
+.writting h1 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 35px;
+    
+}
+.writting p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+.writting .btn {
+    text-align: left;
+}
+.info_img img{
+    max-height: 420px;
+    max-width: 100%;
+}
+/* Service Section */
+
+#service h1{
+    text-align: center;
+    font-size: 40px;
+}
+#service .info_ser{
+    display: flex;
+}
+.box{
+    margin: 10px;
+    border: 2px rgb(231, 231, 231) solid;
+    padding: 10px;
+    box-shadow: 0 0 2px rgb(190, 190, 190);
+    border-radius: 5px;
+    flex-basis: 33.33%;
+}
+.info_ser h2{
+    text-align: center;
+}
+.info_ser i{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+.info_ser p{
+    text-align: center;
+   
+}
+.info_ser .btn{
+    
+    text-align: center;
+}
+.info_ser a:hover{
+    background-color: var(--purple);
+    color: white;
+}
+/* Contact Area */
+
+#contact_area {
+    width: 100%;
+    display: flex;
+    background-color: #bd9cff;
+    margin-top: 20px;
+}
+
+#contact_area .form_area{
+    flex-basis: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px;
+
+}
+.form_area label{
+    display: block;
+    
+}
+.form_area input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px rgb(210, 210, 210) solid;
+}
+.form_area textarea{
+    width: 100%;
+    
+}
+.contact_map{
+    flex-basis: 60%;
+    
+}
+.contact_map iframe{
+    width: 100%;
+}
+/* Footer Area */
+#footer_area{
+    background-color: var(--purple);
+}
+#footer_area p {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+

@@ -1,0 +1,40 @@
+@media only screen and (min-width:200px) and (max-width:520px) {
+    #header_area{
+        flex-direction: column;
+        
+    }
+    .contact_area {
+        margin-bottom: 10px;
+    }
+    #nav_area{
+        flex-direction: column;
+    }
+    #nav_area .logo_area {
+        justify-content: center;
+    }
+    .logo_area p {
+        font-size: 50px;
+        color: black;
+        margin: 0;
+        padding: 20px 0;
+    }
+    #nav_area .nav_menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    #header_area .writting {
+        padding: 20px;
+    }
+    #service .info_ser {
+        flex-direction: column;
+    }
+    #header_area .writting {
+        order: 2;
+    }
+    #contact_area {
+        flex-direction: column;
+    }
+
+}
